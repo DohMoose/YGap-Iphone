@@ -38,6 +38,11 @@
 		DEF310D310FA75CC00CEB61F /* BlogItemController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF310D110FA75CC00CEB61F /* BlogItemController.xib */; };
 		DEF312931102DDEE00CEB61F /* BlogController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF312911102DDEE00CEB61F /* BlogController.m */; };
 		DEF312941102DDEE00CEB61F /* BlogController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF312921102DDEE00CEB61F /* BlogController.xib */; };
+		DEF312D11102E99C00CEB61F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF312D01102E99C00CEB61F /* background.png */; };
+		DEF3131D1102EF1200CEB61F /* CurrentProjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF3131B1102EF1200CEB61F /* CurrentProjectController.m */; };
+		DEF3131E1102EF1200CEB61F /* CurrentProjectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF3131C1102EF1200CEB61F /* CurrentProjectController.xib */; };
+		DEF313471102F27C00CEB61F /* CurrentProjectItems.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF313451102F27C00CEB61F /* CurrentProjectItems.m */; };
+		DEF313481102F27C00CEB61F /* CurrentProjectItems.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF313461102F27C00CEB61F /* CurrentProjectItems.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +100,13 @@
 		DEF312901102DDEE00CEB61F /* BlogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogController.h; sourceTree = "<group>"; };
 		DEF312911102DDEE00CEB61F /* BlogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogController.m; sourceTree = "<group>"; };
 		DEF312921102DDEE00CEB61F /* BlogController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BlogController.xib; path = Classes/BlogController.xib; sourceTree = "<group>"; };
+		DEF312D01102E99C00CEB61F /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		DEF3131A1102EF1200CEB61F /* CurrentProjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentProjectController.h; sourceTree = "<group>"; };
+		DEF3131B1102EF1200CEB61F /* CurrentProjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentProjectController.m; sourceTree = "<group>"; };
+		DEF3131C1102EF1200CEB61F /* CurrentProjectController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CurrentProjectController.xib; path = Classes/CurrentProjectController.xib; sourceTree = "<group>"; };
+		DEF313441102F27C00CEB61F /* CurrentProjectItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentProjectItems.h; sourceTree = "<group>"; };
+		DEF313451102F27C00CEB61F /* CurrentProjectItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentProjectItems.m; sourceTree = "<group>"; };
+		DEF313461102F27C00CEB61F /* CurrentProjectItems.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CurrentProjectItems.xib; path = Classes/CurrentProjectItems.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +145,10 @@
 				DEF310D010FA75CC00CEB61F /* BlogItemController.m */,
 				DEF312901102DDEE00CEB61F /* BlogController.h */,
 				DEF312911102DDEE00CEB61F /* BlogController.m */,
+				DEF3131A1102EF1200CEB61F /* CurrentProjectController.h */,
+				DEF3131B1102EF1200CEB61F /* CurrentProjectController.m */,
+				DEF313441102F27C00CEB61F /* CurrentProjectItems.h */,
+				DEF313451102F27C00CEB61F /* CurrentProjectItems.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -171,9 +187,12 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DEF312D01102E99C00CEB61F /* background.png */,
+				DEF3131C1102EF1200CEB61F /* CurrentProjectController.xib */,
 				28F335F01007B36200424DE2 /* RootViewController.xib */,
 				DEF312921102DDEE00CEB61F /* BlogController.xib */,
 				DEF310D110FA75CC00CEB61F /* BlogItemController.xib */,
+				DEF313461102F27C00CEB61F /* CurrentProjectItems.xib */,
 				DEF30FD510F9AD5A00CEB61F /* TourController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* YGap-Info.plist */,
@@ -299,6 +318,9 @@
 				DEF30FD710F9AD5A00CEB61F /* TourController.xib in Resources */,
 				DEF310D310FA75CC00CEB61F /* BlogItemController.xib in Resources */,
 				DEF312941102DDEE00CEB61F /* BlogController.xib in Resources */,
+				DEF312D11102E99C00CEB61F /* background.png in Resources */,
+				DEF3131E1102EF1200CEB61F /* CurrentProjectController.xib in Resources */,
+				DEF313481102F27C00CEB61F /* CurrentProjectItems.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +351,8 @@
 				DEF3105D10F9B6FB00CEB61F /* AddressGeocoder.m in Sources */,
 				DEF310D210FA75CC00CEB61F /* BlogItemController.m in Sources */,
 				DEF312931102DDEE00CEB61F /* BlogController.m in Sources */,
+				DEF3131D1102EF1200CEB61F /* CurrentProjectController.m in Sources */,
+				DEF313471102F27C00CEB61F /* CurrentProjectItems.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
