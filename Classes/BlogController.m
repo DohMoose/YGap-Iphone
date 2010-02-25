@@ -164,7 +164,7 @@
 	frame.origin.x=0; frame.origin.y=0;
 	AsyncImageView *thumbnail = (AsyncImageView *)[cell viewWithTag:2];
 	
-	thumbnail = [[[AsyncImageView alloc] initWithFrame:frame] autorelease];
+	//thumbnail = [[[AsyncImageView alloc] initWithFrame:frame] autorelease];
 	NSString *thumbnail_url = [[blogEntries objectAtIndex: blogEntryIndex] objectForKey: @"thumbnail"];
 	if (thumbnail_url != nil){
 		NSURL *url = [NSURL URLWithString: thumbnail_url];

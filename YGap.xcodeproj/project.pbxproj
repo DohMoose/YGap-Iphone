@@ -28,6 +28,13 @@
 		DE9D74BE10F806DD006116F5 /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9D74B210F806DD006116F5 /* CTidy.m */; };
 		DE9D753510F81A21006116F5 /* BlogTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9D753410F81A21006116F5 /* BlogTableCell.xib */; };
 		DE9D75FA10F946A5006116F5 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9D75F910F946A5006116F5 /* AsyncImageView.m */; };
+		DE9E61F0111841BF009F58BA /* CustomUINavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9E61EF111841BF009F58BA /* CustomUINavigationBar.m */; };
+		DEBADB1A11346D21003A3FDF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DEBADB1911346D21003A3FDF /* Default.png */; };
+		DEBADB311134712B003A3FDF /* ui_nav_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DEBADB301134712B003A3FDF /* ui_nav_bg.png */; };
+		DEBADB4D113472C9003A3FDF /* GetInvolved.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBADB4B113472C9003A3FDF /* GetInvolved.m */; };
+		DEBADB4E113472C9003A3FDF /* GetInvolved.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEBADB4C113472C9003A3FDF /* GetInvolved.xib */; };
+		DEBADB5E1134731A003A3FDF /* LifeLink.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBADB5C1134731A003A3FDF /* LifeLink.m */; };
+		DEBADB5F1134731A003A3FDF /* LifeLink.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEBADB5D1134731A003A3FDF /* LifeLink.xib */; };
 		DEF30FD610F9AD5A00CEB61F /* TourController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF30FD410F9AD5A00CEB61F /* TourController.m */; };
 		DEF30FD710F9AD5A00CEB61F /* TourController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF30FD510F9AD5A00CEB61F /* TourController.xib */; };
 		DEF3100710F9B0A100CEB61F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF3100610F9B0A100CEB61F /* MapKit.framework */; };
@@ -43,6 +50,9 @@
 		DEF3131E1102EF1200CEB61F /* CurrentProjectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF3131C1102EF1200CEB61F /* CurrentProjectController.xib */; };
 		DEF313471102F27C00CEB61F /* CurrentProjectItems.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF313451102F27C00CEB61F /* CurrentProjectItems.m */; };
 		DEF313481102F27C00CEB61F /* CurrentProjectItems.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF313461102F27C00CEB61F /* CurrentProjectItems.xib */; };
+		DEF3135C1102F9D000CEB61F /* URLCacheAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF3135B1102F9D000CEB61F /* URLCacheAlert.m */; };
+		DEF3135F1102F9D900CEB61F /* URLCacheConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF3135E1102F9D900CEB61F /* URLCacheConnection.m */; };
+		DEF313CA1103B01A00CEB61F /* three_states_of_mind.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF313C91103B01A00CEB61F /* three_states_of_mind.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +95,16 @@
 		DE9D753410F81A21006116F5 /* BlogTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlogTableCell.xib; sourceTree = "<group>"; };
 		DE9D75F810F946A5006116F5 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
 		DE9D75F910F946A5006116F5 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		DE9E61EE111841BF009F58BA /* CustomUINavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUINavigationBar.h; sourceTree = "<group>"; };
+		DE9E61EF111841BF009F58BA /* CustomUINavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUINavigationBar.m; sourceTree = "<group>"; };
+		DEBADB1911346D21003A3FDF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DEBADB301134712B003A3FDF /* ui_nav_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ui_nav_bg.png; sourceTree = "<group>"; };
+		DEBADB4A113472C9003A3FDF /* GetInvolved.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetInvolved.h; sourceTree = "<group>"; };
+		DEBADB4B113472C9003A3FDF /* GetInvolved.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetInvolved.m; sourceTree = "<group>"; };
+		DEBADB4C113472C9003A3FDF /* GetInvolved.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GetInvolved.xib; path = Classes/GetInvolved.xib; sourceTree = "<group>"; };
+		DEBADB5B1134731A003A3FDF /* LifeLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeLink.h; sourceTree = "<group>"; };
+		DEBADB5C1134731A003A3FDF /* LifeLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeLink.m; sourceTree = "<group>"; };
+		DEBADB5D1134731A003A3FDF /* LifeLink.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LifeLink.xib; path = Classes/LifeLink.xib; sourceTree = "<group>"; };
 		DEF30FD310F9AD5A00CEB61F /* TourController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourController.h; sourceTree = "<group>"; };
 		DEF30FD410F9AD5A00CEB61F /* TourController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourController.m; sourceTree = "<group>"; };
 		DEF30FD510F9AD5A00CEB61F /* TourController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TourController.xib; path = Classes/TourController.xib; sourceTree = "<group>"; };
@@ -107,6 +127,11 @@
 		DEF313441102F27C00CEB61F /* CurrentProjectItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentProjectItems.h; sourceTree = "<group>"; };
 		DEF313451102F27C00CEB61F /* CurrentProjectItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentProjectItems.m; sourceTree = "<group>"; };
 		DEF313461102F27C00CEB61F /* CurrentProjectItems.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CurrentProjectItems.xib; path = Classes/CurrentProjectItems.xib; sourceTree = "<group>"; };
+		DEF3135A1102F9D000CEB61F /* URLCacheAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLCacheAlert.h; sourceTree = "<group>"; };
+		DEF3135B1102F9D000CEB61F /* URLCacheAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLCacheAlert.m; sourceTree = "<group>"; };
+		DEF3135D1102F9D900CEB61F /* URLCacheConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLCacheConnection.h; sourceTree = "<group>"; };
+		DEF3135E1102F9D900CEB61F /* URLCacheConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLCacheConnection.m; sourceTree = "<group>"; };
+		DEF313C91103B01A00CEB61F /* three_states_of_mind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three_states_of_mind.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +153,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DE9E61ED1118419E009F58BA /* SupportClasses */,
+				DEF313581102F9B800CEB61F /* URLCache */,
 				DE9D749A10F806DD006116F5 /* Source */,
 				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
@@ -149,6 +176,10 @@
 				DEF3131B1102EF1200CEB61F /* CurrentProjectController.m */,
 				DEF313441102F27C00CEB61F /* CurrentProjectItems.h */,
 				DEF313451102F27C00CEB61F /* CurrentProjectItems.m */,
+				DEBADB4A113472C9003A3FDF /* GetInvolved.h */,
+				DEBADB4B113472C9003A3FDF /* GetInvolved.m */,
+				DEBADB5B1134731A003A3FDF /* LifeLink.h */,
+				DEBADB5C1134731A003A3FDF /* LifeLink.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -187,7 +218,12 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DEBADB301134712B003A3FDF /* ui_nav_bg.png */,
+				DEBADB1911346D21003A3FDF /* Default.png */,
+				DEBADB5D1134731A003A3FDF /* LifeLink.xib */,
+				DEBADB4C113472C9003A3FDF /* GetInvolved.xib */,
 				DEF312D01102E99C00CEB61F /* background.png */,
+				DEF313C91103B01A00CEB61F /* three_states_of_mind.png */,
 				DEF3131C1102EF1200CEB61F /* CurrentProjectController.xib */,
 				28F335F01007B36200424DE2 /* RootViewController.xib */,
 				DEF312921102DDEE00CEB61F /* BlogController.xib */,
@@ -260,6 +296,26 @@
 			path = ExtraLibraries/touchcode/TouchXML/Common/Source/Tidy;
 			sourceTree = DEVELOPER_DIR;
 		};
+		DE9E61ED1118419E009F58BA /* SupportClasses */ = {
+			isa = PBXGroup;
+			children = (
+				DE9E61EE111841BF009F58BA /* CustomUINavigationBar.h */,
+				DE9E61EF111841BF009F58BA /* CustomUINavigationBar.m */,
+			);
+			name = SupportClasses;
+			sourceTree = "<group>";
+		};
+		DEF313581102F9B800CEB61F /* URLCache */ = {
+			isa = PBXGroup;
+			children = (
+				DEF3135D1102F9D900CEB61F /* URLCacheConnection.h */,
+				DEF3135E1102F9D900CEB61F /* URLCacheConnection.m */,
+				DEF3135A1102F9D000CEB61F /* URLCacheAlert.h */,
+				DEF3135B1102F9D000CEB61F /* URLCacheAlert.m */,
+			);
+			name = URLCache;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -321,6 +377,11 @@
 				DEF312D11102E99C00CEB61F /* background.png in Resources */,
 				DEF3131E1102EF1200CEB61F /* CurrentProjectController.xib in Resources */,
 				DEF313481102F27C00CEB61F /* CurrentProjectItems.xib in Resources */,
+				DEF313CA1103B01A00CEB61F /* three_states_of_mind.png in Resources */,
+				DEBADB1A11346D21003A3FDF /* Default.png in Resources */,
+				DEBADB311134712B003A3FDF /* ui_nav_bg.png in Resources */,
+				DEBADB4E113472C9003A3FDF /* GetInvolved.xib in Resources */,
+				DEBADB5F1134731A003A3FDF /* LifeLink.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +414,11 @@
 				DEF312931102DDEE00CEB61F /* BlogController.m in Sources */,
 				DEF3131D1102EF1200CEB61F /* CurrentProjectController.m in Sources */,
 				DEF313471102F27C00CEB61F /* CurrentProjectItems.m in Sources */,
+				DEF3135C1102F9D000CEB61F /* URLCacheAlert.m in Sources */,
+				DEF3135F1102F9D900CEB61F /* URLCacheConnection.m in Sources */,
+				DE9E61F0111841BF009F58BA /* CustomUINavigationBar.m in Sources */,
+				DEBADB4D113472C9003A3FDF /* GetInvolved.m in Sources */,
+				DEBADB5E1134731A003A3FDF /* LifeLink.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

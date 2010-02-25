@@ -9,10 +9,12 @@
 
 @interface RootViewController : UIViewController {
 
+		
 }
+
 
 - (IBAction)blog;
 - (IBAction)current;
-- (IBAction)about;
+- (IBAction)life_link;
 
 @end

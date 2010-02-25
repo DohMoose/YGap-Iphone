@@ -7,12 +7,11 @@
 //
 #import "BlogController.h"
 #import "CurrentProjectController.h"
+#import "LifeLink.h"
 #import "RootViewController.h"
 #import "AsyncImageView.h"
 
 @implementation RootViewController
-
-
 
 - (IBAction)blog {
 	BlogController *blogController = [[BlogController alloc] initWithNibName:@"BlogController" bundle:nil];
@@ -22,9 +21,16 @@
 }
 - (IBAction)current {
 	CurrentProjectController *currentProjectController = [[CurrentProjectController alloc] initWithNibName:@"CurrentProjectController" bundle:nil];
-	currentProjectController.title = @"Blog";
+	currentProjectController.title = @"Current Project";
 	[self.navigationController pushViewController:currentProjectController animated:YES];
 	[currentProjectController release];
+}
+
+- (IBAction)life_link {
+	LifeLink *life_linkController = [[LifeLink alloc] initWithNibName:@"LifeLink" bundle:nil];
+	life_linkController.title = @"LifeLink";
+	[self.navigationController pushViewController:life_linkController animated:YES];
+	[life_linkController release];
 }
 /*
 - (void)viewDidLoad {
@@ -35,11 +41,12 @@
 }
 */
 
-/*
+
 - (void)viewWillAppear:(BOOL)animated {
+	self.title = @"YGAP";
     [super viewWillAppear:animated];
 }
-*/
+
 
 /*
 - (void)viewWillDisappear:(BOOL)animated {
